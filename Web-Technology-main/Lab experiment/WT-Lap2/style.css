@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.home {
+    background-image: url("home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.home h1{
+    padding-top: 50px;
+}
+.home .clg{
+    padding-bottom: 150px;
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgb(253, 253, 252);
+}
+.sem ,.ca{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sem h1{
+    padding-top: 30px;
+    text-align: center;
+}
+.details{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pera{
+    padding: 30px;
+    text-align: center;
+}
+.pera button{
+    margin-top: 30px;
+    width: 10rem;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: green;
+    color: #fff;
+    border: none;
+}
+.ca h1{
+    padding-top: 30px;
+    text-align: center;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer{
+    width: 100%;
+    height: 10rem;
+    background-color: rgba(113, 38, 243, 0.192);
+}
+.f-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(113, 38, 243, 0.192);
+}
+.footername{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 27px;
+    padding-left: 10rem;
+}
+.logo{
+    padding-right: 20rem;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+}
+td{
+    padding: 5px;
+}
+table{
+    padding: 30px;
+}

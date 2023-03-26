@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#int{
+    background-color: rgba(249, 235, 222, 1);
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+#intbd{
+    background-color: rgba(129, 88, 84, 1);
+    color: #fff;
+}
+.bg-color {
+    background-color: rgba(129, 88, 84, 1);
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.mainbody {
+    width: 80%;
+    background-color: rgba(249, 235, 222, 1);
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+h2::after {
+    content: "";
+    background: black;
+    width: 60px;
+    height: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: block;
+    border-radius: 10px;
+    transform: translateY(10px);
+    position: relative;
+    left: -2px;
+}
+
+.name tr td {
+    padding: 10px;
+    padding-right: 48px;
+}
+
+.name tr td input {
+    width: 221px;
+    height: 35px;
+    padding: 10px;
+    outline-color: rgb(0, 255, 157);
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.other tr td {
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.boxes input {
+    width: 500px;
+    height: 35px;
+    padding: 10px;
+    outline-color: rgb(0, 255, 157);
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name,
+.boxes {
+    font-size: 18px;
+    font-weight: 540;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 40px;
+    border: 1px solid rgba(4, 192, 120, 0.973);
+    cursor: pointer;
+    position: relative;
+    left: 325px;
+}
+
+.rule {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+
+.footer {
+    width: 100%;
+    height: 10rem;
+    background-color: rgba(113, 38, 243, 0.192);
+}
+
+.f-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footername {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 27px;
+    padding-left: 10rem;
+}
+
+.logo {
+    padding-right: 20rem;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+}
+
+td {
+    padding: 5px;
+}
+
+.table {
+    padding: 30px;
+}

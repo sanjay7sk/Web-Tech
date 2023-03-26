@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Page</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/fontawesome.min.css">
+</head>
+
+<body>
+    <div class="bg-color">
+        <section class="mainbody">
+            <section class="container">
+                <h2>Online Aadhaar Card Application</h2>
+                <section class="details">
+                    <form action="#">
+                        <table class="name">
+                            <tr>
+                                <td>Applicant Name</td>
+                                <hr>
+                                <td><input type="text" placeholder="First Name" required></td>
+                                <td><input type="text" placeholder="Last Name" required></td>
+                            </tr>
+                        </table>
+
+                        <table class="other">
+                            <tr class="boxes">
+                                <td>Address</td>
+                                <td><input type="number" placeholder="Enter Your Address" required></td>
+                            </tr>
+                            <tr class="area">
+                                <td>Gender</td>
+                                <div class="check">
+                                    <td><input type="checkbox" required>
+                                        <label for="gender">Male</label>
+                                    <td><input type="checkbox" required>
+                                        <label for="gender">Female</label>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr class="boxes">
+                                <td>Date of Birth</td>
+                                <td><input type="date" placeholder="Enter Your Date of Birth" required></td>
+                            </tr>
+                            <tr class="boxes">
+                                <td>LandMark</td>
+                                <td><input type="text" placeholder="Enter Your LandMark" required></td>
+                            </tr>
+                            <tr class="boxes">
+                                <td>Village/town/City</td>
+                                <td><input type="text" placeholder="Enter your Village/town/City" required></td>
+                            </tr>
+                            <tr class="boxes">
+                                <td>Area/Locality/Sector</td>
+                                <td><input type="text" placeholder="Area/Locality/Sector" required></td>
+                            </tr>
+                            <tr class="boxes">
+                                <td>District</td>
+                                <td><input type="text" placeholder="Enter Your District" required></td>
+                            </tr>
+                            <tr class="boxes">
+                                <td>State</td>
+                                <td><input type="text" placeholder="Enter Your State" required></td>
+                            </tr>
+                            <tr class="boxes">
+                                <td>Pin Code</td>
+                                <td><input type="number" placeholder="Enter Your Pin Code" required></td>
+                            </tr>
+                            <tr class="boxes">
+                                <td>Post Office</td>
+                                <td><input type="text" placeholder="Postoffice" required></td>
+                            </tr>
+                            <tr class="boxes">
+                                <td>Mobile Number</td>
+                                <td><input type="number" placeholder="Enter Your Mobile Number" required></td>
+                            </tr>
+                            <tr class="area">
+                                <td>Details of:</td>
+                                <td><input type="checkbox" required>
+                                    <label>Father</label>
+                                    <input type="checkbox" required>
+                                    <label>Mother</label>
+                                    <input type="checkbox" required>
+                                    <label>Guardian</label>
+                                    <input type="checkbox" required>
+                                    <label>Husband</label>
+                                    <input type="checkbox" required>
+                                    <label>Wife</label>
+                                </td>
+                                <!-- <tr class="boxes">
+                            <td><input type="text" required></td>
+                            </tr> -->
+                            </tr>
+                            <tr class="boxes">
+                                <td>Email</td>
+                                <td><input type="email" placeholder="Enter Your Email" required></td>
+                            </tr>
+
+                        </table>
+
+                        <table class="area">
+                            <tr>
+                                <td>
+                                    <div>
+                                        <input type="radio" id="resident">
+                                        <label for="resident">Resident</label>
+                                        <input type="radio" id="non-resident">
+                                        <label for="non-resident">Non-Resident</label>
+                                        <hr>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table class="area">
+                            <td>
+                                <tr>
+                                    <input type="checkbox" id="verify">
+                                    <label for="resident">BioMetric Update(Photo+FingerPrint+Iris)</label>
+                                    <hr>
+                            </td>
+                            </tr>
+                        </table>
+                        <button onclick="myFunction()">Submit</button>
+
+
+                    </form>
+                </section>
+            </section>
+        </section>
+    </div>
+
+
+    <div class="footer">
+        <div class="f-con">
+            <div class="footername">
+                <h3>Government of India</h3>
+                <!-- <h5>chennai</h5> -->
+            </div>
+            <div class="logo">
+                <table class="table">
+                    <tr>
+                        <td><i class="fa-brands fa-edge-legacy"></i></td>
+                        <td>www.uidai.com</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-brands fa-linkedin"></i></td>
+                        <td>uidaiLinkedIn</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-brands fa-twitter"></i></td>
+                        <td>UIDAI_INDIA</td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td><i class="fa-brands fa-facebook"></i></td>
+                        <td>uidai</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-brands fa-youtube"></i></td>
+                        <td>uidai YT</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function myFunction() {
+        alert("Registrtaction Successful");
+    }
+</script>
+
+</html>
